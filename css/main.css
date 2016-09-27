@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+:root {
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top left, #247BA0 0%, #FFE066 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Inconsolata', 'Courier New', monospace;
+}
+
+body {
+    padding-top: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button {
+    outline: none;
+    border: 0;
+    padding: 16px;
+    padding: 1rem;
+    background-color: #292f36;
+
+    font-size: 20px;
+
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #5cc8ff;
+
+    -webkit-transition: all 300ms cubic-bezier(1, 1, 1, 1);
+
+    transition: all 300ms cubic-bezier(1, 1, 1, 1);
+}
+
+button:hover {
+    color: #00a3f5;
+}
