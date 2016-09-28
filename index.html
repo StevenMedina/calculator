@@ -4,14 +4,88 @@
     <meta charset="UTF-8">
     <title>Calculadora</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
 </head>
 <body>
 
+<!-- Title -->
+<div class="container">
+  <h2 align="center">Calculadora</h2>
+</div>
+<!-- End Title -->
+
+<!-- Calculator -->
+<main class="calculator">
+  <div class="editable-field" contenteditable="false">0</div>
+  <section class="memory-bank">
+    <button class="toggle-close">
+      <span class="title">+</span>
+    </button>
+  </section>
+  <section class="button-set--numbers">
+    <button>
+      <span class="title">1</span>
+    </button>
+    <button>
+      <span class="title">2</span>
+    </button>
+    <button>
+      <span class="title">3</span>
+    </button>
+    <button>
+      <span class="title">4</span>
+    </button>
+    <button>
+      <span class="title">5</span>
+    </button>
+    <button>
+      <span class="title">6</span>
+    </button>
+    <button>
+      <span class="title">7</span>
+    </button>
+    <button>
+      <span class="title">8</span>
+    </button>
+    <button>
+      <span class="title">9</span>
+    </button>
+    <button>
+      <span class="title">0</span>
+    </button>
+  </section>
+  <section class="button-set--functions">
+    <button>
+      <span class="title">Memoria</span>
+    </button>
+    <button>
+      <span class="title">Limpiar</span>
+    </button>
+     <button>
+      <span class="title">%</span>
+    </button>
+  </section>
+  <section class="button-set--equations">
+    <button>
+      <span class="title">+</span>
+    </button>
+    <button>
+      <span class="title">-</span>
+    </button>
+    <button>
+      <span class="title">*</span>
+    </button>
+    <button>
+      <span class="title">/</span>
+    </button>
+    <button>
+      <span class="title">=</span>
+    </button>
+  </section>
+</main>
+<!-- End Calculator -->
+
 <!-- Scripts -->
-<script src='http://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
 <script src='https://cdn.jsdelivr.net/eventemitter/4.3.0/EventEmitter.min.js'></script>
-<script src="js/index.js"></script>
 </body>
 </html>
