@@ -3,6 +3,7 @@
  */
 
 $( document ).ready( function() {
-    var display = $('#display');
-    display.text( display.text().substring(0,8) );
+    $('#display').text(function ( index, currentText ) {
+        return currentText.substr(0, 8);
+    });
 });

@@ -3,5 +3,5 @@
  */
 
 $('#buttonClean').on('click', function () {
-    $('#display').text('0');
+    $('#display').text('');
 });
